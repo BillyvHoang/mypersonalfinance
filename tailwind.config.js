@@ -12,6 +12,9 @@ module.exports = {
         Third: '#343434',
         background: '#252525',
         Text: '#fff',
+      },
+      fontFamily:{
+        'text': ['Inter'],
       }
     },
   },
