@@ -1,12 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <h1 className="text-2xl font-bold ">
-    Hello world!
-  </h1>
+   <Login/>
   );
 }
 
