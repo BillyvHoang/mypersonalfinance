@@ -1,8 +1,16 @@
 
 function Login(){
     return(
-        <div className="flex flex-col lg:flexrow h-screen">
-            Hello world
+        <div className="container flex flex-row h-screen bg-background">
+            {/* Login  Container*/}
+            <div className="container flex basis-2/5 bg-Third">
+                hello
+            </div>
+
+            {/* Image Container */}
+            <div className="container flex basis-[]">
+                world
+            </div>
         </div>
     )
 }
