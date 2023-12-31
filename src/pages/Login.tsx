@@ -1,15 +1,15 @@
 
 function Login(){
     return(
-        <div className="container flex flex-row h-screen bg-background">
+        <div className="flex flex-col h-screen w-screen bg-background sm:flex-row">
             {/* Login  Container*/}
-            <div className="container flex basis-2/5 bg-Third">
+            <div className="container bg-Third h-1/2 sm:h-screen">
                 hello
             </div>
 
             {/* Image Container */}
-            <div className="container flex basis-[]">
-                world
+            <div className="container">
+                <img ></img>
             </div>
         </div>
     )
