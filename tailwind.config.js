@@ -5,7 +5,15 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary: '#262726',
+        secondary: '#0ADD7C',
+        Third: '#343434',
+        background: '#252525',
+        Text: '#fff',
+      }
+    },
   },
   plugins: [require("daisyui")],
 }
